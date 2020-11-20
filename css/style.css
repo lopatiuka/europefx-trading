@@ -267,7 +267,7 @@ main {
     justify-content: flex-start;
     align-items: center;
     width: 380px;
-    height: 709px;
+    height: auto;
     margin-top: 50px;
     margin-left: 20px;
     border-radius: 30px;
@@ -275,9 +275,7 @@ main {
 }
 
 .intro .container .content .form-container img {
-    margin-top: 50px;
-    width: 166.99px;
-    height: 100px;    
+    margin-top: 50px;  
 }
 
 .intro .container .content .form-container h2 {
@@ -351,6 +349,7 @@ input::-webkit-input-placeholder {
     border: none;
     font-size: 16px;
     color: white;
+    margin-bottom: 30px;
     transition-property: background-color, color;
     transition-duration: 0.3s;
 }
